@@ -29,16 +29,3 @@ if num < 1000000 and num > 99999:
         print('NO')
 else:
     print('Введены неверные данные')
-
-
-
-
-
-
-
-
-
-    # first_num = num // 100
-    # second_num = num % 100 // 10
-    # third_num = num % 10
-    # sum = first_num + second_num + third_num
