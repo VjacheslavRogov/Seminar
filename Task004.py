@@ -8,3 +8,11 @@
 # 24 -> 4 16 4
 # 60 -> 10 40 10
 # 7 -> "нельзя определить"
+
+num = int(input("Введите число: "))
+if num % 6 == 0:
+    first_and_third_num = int(num / 6)
+    second_num = int(first_and_third_num * 4)
+    print(first_and_third_num, second_num, first_and_third_num)
+else:
+    print('нельзя определить')
