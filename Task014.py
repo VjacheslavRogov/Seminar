@@ -3,3 +3,9 @@
 
 # Пример:
 # Ввод: 13 -> 1, 2, 4, 8
+
+num = int(input())
+i = 0
+while 2 ** i <= num:
+    print(2 ** i)
+    i += 1
