@@ -6,3 +6,17 @@
 
 # Пример:
 # Ввод: 1 1 1 1 0 0 -> 2
+
+num = int(input())
+count_heads = 0
+count_tails = 0
+for i in range(num):
+    x = int(input())
+    if x == 0:
+        count_heads += 1
+    else:
+        count_tails += 1
+if count_tails > count_heads:
+    print(count_heads)
+else:
+    print(count_tails)
