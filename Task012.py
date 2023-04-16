@@ -5,3 +5,21 @@
 
 # Пример:
 # Ввод: 5 6 -> 2 3
+
+
+
+first_flag = False
+while not first_flag:
+    first_num = int(input('Введите сумму чисел: '))
+    if not (first_num > 2000 or first_num < 1):
+        first_flag = True
+second_flag = False
+while not second_flag:
+    second_num = int(input('Введите произведение чисел: '))
+    if not (second_num > 1000000 or second_num < 1):
+        second_flag = True
+
+for i in range(first_num):
+    for j in range(second_num):
+        if first_num == i + j and second_num == i * j:
+            print(i, j)
