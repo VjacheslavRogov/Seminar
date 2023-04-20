@@ -15,6 +15,7 @@ def sum_digit_in_numbers(number):
     sum = first_num + second_num + third_num
     return sum
 
+
 num = int(input("Введите шестизначное число: "))
 if num < 1000000 and num > 99999:
     first_half_num = num // 1000

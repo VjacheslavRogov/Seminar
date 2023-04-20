@@ -12,5 +12,5 @@ k = int(input('Введите кол-во долек: '))
 
 if k % n == 0 or k % m == 0:
     print('Yes')
-else: 
+else:
     print('No')

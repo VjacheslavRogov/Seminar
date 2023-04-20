@@ -12,5 +12,5 @@ first_cr = 2
 second_cr = 2
 third_cr = 11
 print((first_cr + 1) // 2 +
-      (second_cr + 1) // 2 + 
+      (second_cr + 1) // 2 +
       (third_cr + 1) // 2)
