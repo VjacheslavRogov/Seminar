@@ -15,7 +15,8 @@
 # находясь перед некоторым кустом заданной во входном файле грядки.
 
 from random import randint
-list_1 = list(randint(1, 5) for i in range(int(input('Введите кол-во кустов: '))))
+list_1 = list(randint(1, 5)
+              for i in range(int(input('Введите кол-во кустов: '))))
 print(list_1)
 a = int(input('Введите № куста: '))
 res = 0
