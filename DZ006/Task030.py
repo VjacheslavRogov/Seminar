@@ -14,5 +14,5 @@
 a1 = int(input("Введите первый элемент последовательности: "))
 d = int(input("Введите резность между элементами: "))
 n = int(input("Введите количество элементов: "))
-for i in range(n):
-    print(a1 + i * d, end=' ')
+progression = [a1 + (i-1)*d for i in range(1, n+1)]
+print(progression)
