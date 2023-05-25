@@ -13,3 +13,22 @@
 
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да
 #     **Вывод:** Парам пам-пам
+
+song = input('Введите песенку Винни: ')
+words = song.lower().split()
+
+
+def count_vowels(word):
+    vowels = 'аеёиоуыэюя'
+    count = 0
+    for i in word:
+        if i in vowels:
+            count += 1
+    return count
+
+
+vowel_count = list(map(count_vowels, words))
+if len(set(vowel_count)) == 1:
+    print('Парам пам-пам')
+else:
+    print('Пам парам')
